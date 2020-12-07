@@ -2,6 +2,7 @@ name: Go
 
 on:
   push:
+  check_run:
   pull_request:
     # edtited - "title, body, or the base branch of the PR is modified"
     # synchronize - "commit(s) pushed to the pull request"
